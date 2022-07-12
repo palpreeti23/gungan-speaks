@@ -1,0 +1,105 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    background-image: url(gungan.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+    color: aliceblue;
+    
+}
+
+.heading{
+    text-align: center;
+    padding: 1rem;
+   
+}
+
+.container-center{
+    max-width: 800px;
+    margin: auto;
+  
+}
+
+#txt-input{
+    width: 70%;
+    height: 15vh;
+    border: solid black;
+    background-color: transparent;
+    font-family: 'Righteous', cursive;
+    font-size: large;
+    padding: 1rem;
+    color: aliceblue;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+::placeholder{
+   
+    padding: 1rem;
+    font-family: 'Righteous', cursive;
+    color: aliceblue;
+    font-size: large;
+}
+
+#btn-translate{
+    width: 20%;
+    padding: 0.5rem;
+    border: solid bl;
+    margin-top: 2rem;
+    background-color: transparent;
+    font-family: 'Righteous', cursive;
+    color: aliceblue;
+    font-size: large;
+
+}
+
+
+#btn-translate:hover{
+    background-color: palevioletred;
+}
+/* .button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px); */
+
+.comment{
+    font-size: large;
+    margin-top: 1rem;
+}
+
+#output{
+    border: solid black;
+    height: 15vh;
+    width: 70%;
+    font-size: large;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.about{
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bolder;
+   
+}
+
+.content{
+    text-align: center;
+
+}
+
+.footer{
+    
+    padding: 1rem;
+    margin-top: 3rem;
+   font-size: large;
+}
